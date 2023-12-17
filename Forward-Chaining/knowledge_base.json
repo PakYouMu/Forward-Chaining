@@ -1,0 +1,28 @@
+{
+    "facts": [
+        "the owner of the house is old",
+        "the house has a large yard",
+        "the house is in the suburbs",
+        "the house has two or more levels",
+        "the house has a pet",
+        "the house has more than three people"
+    ],
+    "rules": [
+        {
+            "antecedent": "the house has two or more levels",
+            "consequent": "the house has more than three people"
+        },
+        {
+            "antecedent": "the house has a large yard",
+            "consequent": "the house has two or more levels"
+        },
+        {
+            "antecedent": "the house has a pet and the house has more than three people",
+            "consequent": "the house is in the suburbs"
+        },
+        {
+            "antecedent": "the owner of the house is old",
+            "consequent": "the house has a pet"
+        }
+    ]
+}
